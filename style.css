@@ -18,7 +18,6 @@
 
 .sidebar div {
     border: 2px solid goldenrod;
-
 }
 
 .main-content {
@@ -27,8 +26,37 @@
     grid-column: 2;
     grid-row: 2;
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 100px ; /*stopped here*/
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.main-content div {
+    border: 2px solid goldenrod;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    grid-column: 1;
+}
+
+.project-header {
+    grid-column: 1 / end;
+}
+
+.project {
+    grid-column: 1;
+}
+
+.projectE {
+    grid-column: 2;
+}
+
+.announcements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 100px 1fr;
 }
 
 .header {
